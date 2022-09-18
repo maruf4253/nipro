@@ -1,0 +1,918 @@
+/*======================
+    Google Fonts CSS
+=======================*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+/*======================
+    Global CSS
+=======================*/
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+h1{
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+}
+h2{
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: #333;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+h3{
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #333;
+  text-transform: uppercase;
+}
+h4{
+  font-family: 'Lato', sans-serif;
+
+}
+h5{
+  font-family: 'Lato', sans-serif;
+}
+h6{
+  font-family: 'Lato', sans-serif;
+}
+p{
+  font-family: 'Roboto', sans-serif;
+  line-height: 22px;
+  font-size: 12px;
+  color: #696969;
+}
+ul{
+ padding: 0;
+}
+
+/*====================
+  Header Section CSS
+=======================*/
+.header-section{
+
+}.navbar.navbar-expand-lg {
+  padding: 0;
+}
+.navbar-brand{
+  padding: 0 0 0px;
+}
+.nav-item{
+  margin: 0 7px;
+}
+.header-section img{
+  width: 70%;
+  margin-left: -20px;
+  margin-bottom: 25px;
+}
+.navbar-expand-lg .navbar-nav {
+  margin-right: -30px;
+}
+.nav-link{
+  padding-top: 12px;
+  text-transform: uppercase;
+  color: #696969;
+  font-size: 16px;
+}
+.nav-link:focus,
+.nav-link:hover{
+  color: #333;
+}
+
+/*======================
+  Slider Section CSS
+=======================*/
+.slider-section{
+  background: url(../image/Nipro01.png) no-repeat center top;
+  padding: 120px 0 100px;
+  height: 95vh;
+  background-size: cover;
+}
+.slider-section h1{
+  color: #fff;
+}
+.slider-section p{
+  padding:6px 0;
+  font-size: 14px;
+  color: #fff;
+}
+.slider-hpa{
+  padding-left: 0px;
+  margin-top: 12px;
+}
+
+.slider-section .row02{
+  padding: 0;
+  margin: 0;
+}
+.slider-section a{
+  position: relative;
+  overflow: hidden;
+  background: #fff;  
+  padding: 8px;
+  display: block;
+  margin-top: 30px;
+  width: 30%;
+  text-decoration: none;
+  text-align: center;
+  font-size: 12px;
+  color: #333;
+  transition: all 0.3s ease-in-out;
+}
+.fa-right-long{
+  padding-left: 15px;
+}
+.slider-section a::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #333;
+  top: -100%;
+  left: 0;
+  transition: all 0.3s ease-in-out;
+}
+.slider-section a:hover,
+.slider-section a:hover .fa-right-long{
+  color: #fff;
+  z-index: 1;
+}
+.slider-section a:hover::before{
+  top: 0;
+  z-index: -1;
+}
+
+/*======================
+  Service Section CSS
+=======================*/
+.service-section{
+  position: relative;
+  padding-bottom: 30px 0 80px;
+}
+.service-section::before{
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 25px;
+  background: #333;
+  left: 50%;
+  top: 10px;
+}
+.col12{
+  text-align: center;
+}
+.service-section h2{
+  padding: 50px 0 20px;
+}
+.service-box{
+  padding-bottom: 30px;
+  margin-top: 80px;
+  border: 1px solid #cccccc;
+  text-align: center;
+}
+.simg{
+  margin-top: -17px;
+}
+.service-box h3{
+  margin-top: 20px;
+  color: #333;
+}
+.service-box .title-separator {
+  border-top: 1px solid #cccccc;
+  margin: 15px 74px 15px;
+  width: 30%;
+}
+.service-box p{
+  display: block;
+  padding: 0  25px;
+}
+.service-box a{
+  display: block;
+  text-decoration: none;
+  color: #8e8e8e;
+}
+.service-box i{
+  color: #8e8e8e;
+}
+.service-box a:hover,
+.service-box a:hover i{
+  color: #333;
+}
+
+/*======================
+  About Section CSS
+=======================*/
+.about-section{
+  padding: 60px 0 80px;
+} 
+.col55div{
+  padding: 0 0px;
+}
+.about-img{
+  margin-left: 10px;
+}
+.col77{
+  padding-left: 40px;
+}
+.col77 .aboutp{
+ padding-top: 15px;
+}
+.col77 a{
+  position: relative;
+  overflow: hidden;
+  background: #fff; 
+  border: 1px solid #333;; 
+  padding: 8px 0;
+  display: block;
+  margin-top: 50px;
+  width: 32%;
+  text-decoration: none;
+  text-align: center;
+  font-size: 12px;
+  color: #333;
+  transition: all 0.3s ease-in-out;
+}
+.col77 a::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #333;
+  top: -100%;
+  left: 0;
+  transition: all 0.3s ease-in-out;
+}
+.col77 a:hover,
+.col77 a:hover i{
+  color: #fff;
+  z-index: 1;
+}
+.col77 a:hover::before{
+  top: 0;
+  z-index: -1;
+}
+.col77 i{
+  color: #333; 
+}
+
+/*======================
+  Recent Section CSS
+=======================*/
+.recent-section{
+  position: relative;
+  padding: 30px 0 80px;
+}
+.recent-section::before{
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 25px;
+  background: #333;
+  left: 50%;
+  top: 10px;
+}
+.reh2div h2{
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 60px;
+}
+.gallery-btn-area{
+  text-align: center;
+  margin-bottom: 40px;
+} 
+.gallery-btn-area ul li{
+  list-style: none;
+  display: inline-block;
+  text-transform: uppercase;
+  border: 1px solid #fff;
+  margin: 0 10px;
+  padding: 10px 20px;
+}
+.gallery-btn-area ul .active{
+  border: 1px solid #333;
+  color: #333;
+  font-weight: 500;
+}
+.gallery-btn-area ul li:hover{
+  border: 1px solid #333;
+  color: #333;
+  font-weight: 500;
+  cursor: pointer;
+}
+.gallery-item img{
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+}
+.gallery-item{
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 30px;
+} 
+.gallery-item .item-hover{
+  position: absolute;
+  background: rgba(0,0,0,.5);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: -100%;
+  transition: all 0.3s ease-in-out;
+}
+.gallery-item:hover .item-hover{
+  left: 0;
+  transition: all 0.3s ease-in-out;
+} 
+.gallery-item:hover img{
+  transform: scale(1.2,1.2);
+  transition: all 0.3s ease-in-out;
+}
+.item-hover a{
+  text-decoration: none;
+}
+.item-hover .fa-plus{
+  color: #fff;
+  font-size: 22px;
+  width: 15%;
+  height: 12%;
+  border: 1px solid #fff;
+  line-height: 38px;
+  text-align: center;
+  border-radius: 50%;
+  display: block;
+  margin-top: 37%;
+  margin-left: 44%;
+}
+.hover-content{
+  position: absolute;
+  background: #fff;
+  width: 100%;
+  height: 20%;
+  bottom: 0;
+  padding: 15px 20px 5px;
+}
+.hover-content h3{
+  margin-bottom: 0px;
+  margin-top: -5px;
+}
+
+/*======================
+  Choose Section CSS
+=======================*/
+.choose-section{
+  position: relative;
+  padding: 30px 0 80px;
+}
+.choose-section::before{
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 25px;
+  background: #333;
+  top: 10px;
+  left: 50%
+}
+.chh2div h2{
+  padding: 10px 0 60px;
+  text-align: center;
+}
+.chulpdiv{
+  border-bottom: 1px solid #cccccc;
+  width: 30%;
+  margin-right: 25px;
+}
+.chulpdiv:hover{
+  border-bottom: 1px solid #333;
+}
+.chulpdiv:hover ul li{
+  color: #333;
+}
+.chulpdiv ul{
+  padding-left: 0;
+  list-style: none;
+}
+.chulpdiv ul li{
+  display: inline;
+  padding-right: 15px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  color: #8e8e8e;
+}
+.choose-section h3{
+  color: #8e8e8e;
+}
+.choose-img{
+  display: block;
+}
+.chulpdiv p{
+  padding: 12px 0;
+}
+
+/*======================
+   Experts Section CSS
+=======================*/
+.experts-section{
+  position: relative;
+  background: url(../image/Nipro18.png) no-repeat center top;
+  padding: 25px 0 100px;
+}
+.experts-section::before{
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 25px;
+  background: #333;
+  left: 50%;
+  top: 20px;
+}
+.experts-section .col12{
+  text-align: center;
+}
+.experts-section .col12 h2{
+  padding: 35px 0 80px;
+}
+.experts{
+  position: relative;
+  background: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.experts-section .experts-img{
+  width: 100%;
+}
+.experts-info{
+  padding: 10px 0 14px 20px;
+}
+.experts h3{
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #333;
+}
+.experts h4{
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding-top: 6px;
+}
+.experts .social-info{
+  position: absolute;
+  background: #fff;
+  height: 120px;
+  top: 20%;
+  left: 0;
+  opacity: 0;
+}
+.experts .social-info ul{
+  list-style: none;
+}
+.experts .social-info .fa-brands{
+  width: 25px;
+  height: 0px;
+  line-height: 32px;
+  font-size: 20px;
+  color: #8e8e8e;
+  text-align: center;
+  border-top: 1px solid #fff;
+  transition: all 0.3s ease-in-out;
+}
+.experts .social-info .fa-facebook-f:hover,
+.experts .social-info .fa-twitter:hover, 
+.experts .social-info .fa-dribbble:hover, 
+.experts .social-info .fa-instagram:hover{
+  color: #333;
+  border-top: 1px solid #333;
+  transition: all 0.3s ease-in-out;
+}
+.experts:hover .social-info{
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
+}
+
+/*======================
+   Pricing Section CSS
+=======================*/
+.pricing-section{
+  position: relative;
+  padding: 40px 0 80px;
+}
+.pricing-section::before{
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 25px;
+  background: #333;
+  left: 50%;
+  top: 0px;
+}
+.pricing-section .col12{
+  text-align: center;
+}
+.pricing-section .row02{
+  padding-top: 85px;
+}
+.pricing-section .col301{
+  position: relative;
+  padding: 40px 0 40px;
+  border: 1px solid #8e8e8e;
+}
+.pricing-section .col301:hover{
+  border: 1px solid #333;
+}
+.pricing-section .col-lg-3{
+  width: 23%;
+  margin-right: 19px;
+}
+.pricing-section h3{
+  position: absolute;
+  display: inline-block;
+  background: #fff;
+  padding: 5px 5px;
+  margin-top: -57px;
+  margin-left: 25px;
+}
+.pricing-section .p-one{
+  margin-left: 25px;
+  font-size: 30px;
+  color: #333;
+  display: inline;
+}
+.pricing-section .p-two{
+  padding-left: 0px;
+  font-size: 16px;
+  display: inline;
+}
+
+.pricing-section ul{
+  list-style: none;
+}
+.pricing-section ul li{
+  padding-top: 25px;
+  color: #696969;
+  line-height: 10px;
+  margin-left: 28px;
+}
+.pricing-section a{
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid #333;
+  padding: 10px 0;
+  display: block;
+  margin-top: 38px;
+  width: 75%;
+  text-decoration: none;
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+  transition: all 0.3s ease-in-out;
+  height: 15%;
+  margin-left: 28px;
+}
+.pricing-section a::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #333;
+  top: -100%;
+  left: 0;
+  transition: all 0.3s ease-in-out;
+}
+.pricing-section a:hover,
+.pricing-section a:hover i{
+  color: #fff;
+  z-index: 1;
+}
+.pricing-section a:hover::before{
+  top: 0;
+  z-index: -1;
+}
+.pricing-section i{
+  color: #333; 
+}
+
+/*=============================
+   Call To Action Section CSS
+==============================*/
+.callto-section{
+  padding-bottom: 10px;
+  background: #f8f8f8;
+}
+.callto-section .col-lg-4{
+  text-align: center;
+}
+.callto-section .callto-para{
+  padding-top: 24px;
+  margin-left: -36px;
+  font-size: 18px;
+  color: #484848;
+  margin-bottom: 0;
+}
+.callto-section .col-lg-3{
+  text-align: center;
+
+}
+.callto-section a{
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid #333;
+  padding: 10px 0;
+  display: block;
+  margin-top: 16px;
+  width: 75%;
+  text-decoration: none;
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+  transition: all 0.3s ease-in-out;
+  height: 65%;
+  margin-left: 42px;
+}
+.callto-section a::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #333;
+  top: -100%;
+  left: 0;
+  transition: all 0.3s ease-in-out;
+}
+.callto-section a:hover,
+.callto-section a:hover i{
+  color: #fff;
+  z-index: 1;
+}
+.callto-section a:hover::before{
+  top: 0;
+  z-index: -1;
+}
+.callto-section i{
+  color: #333; 
+}
+
+/*==========================
+   Testimonial Section CSS
+===========================*/
+.testimonial-section{
+  padding: 65px 0 70px;
+}
+.testimonial-section .row01 .div11{
+
+}
+.testimonial-box{
+  padding: 15px;
+  border: 1px solid #ccc;
+}
+.testimonial-img{
+  position: relative;
+}
+.testimonial-img .fa-quote-left{
+  position: absolute;
+  top: 10px;
+  left: 24px;
+  color: #333;
+  font-size: 36px;
+}
+.testimonial-content{
+  padding-left: 30px;
+}
+.testimonial-content h3{
+  margin-top: 6px;
+  font-size: 18px;
+  color: #333;
+}
+.testimonial-content h4{
+  font-size: 18px;
+  font-weight: 400;
+  color: #8e8e8e;
+}
+.testimonial-content h5{
+  font-size: 18px;
+  font-weight: 400;
+  color: #333;
+} 
+.testimonial-content p{
+  margin-top: 18px;
+  font-size: 16px;
+}
+.owl-theme .owl-nav {
+  margin-top: 10px;
+  position: absolute;
+  right: -23%;
+  background: #ccc;
+  width: 303px;
+  height: 45px;
+  transform: rotate(90deg);
+  top: 119px;
+  border: 1px solid #333;
+}
+.owl-prev{
+  position: absolute;
+  left: 10px;
+  top: 6px;
+  font-size: 18px;
+}
+.owl-next{
+  position: absolute;
+  right: 10px;
+  top: 6px;
+  font-size: 20px;
+}
+.owl-dots{
+  right: -68px;
+  position: absolute;
+  transform: rotate(90deg);
+  top: 130px;
+}
+.owl-theme .owl-dots .owl-dot span {
+  width: 2px;
+  height: 16px;
+  margin-top: 6px;
+  background: #696969;
+  display: block;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span{
+  background: #333;
+  height: 22px;
+  border-radius: 0;
+  transition: all 0.3s ease;
+}
+
+/*==========================n
+   Contact Section CSS
+===========================*/
+.contact-section{
+  padding: 60px 0 80px;
+}
+.contact-section .container{
+  border: 1px solid #8e8e8e;
+  padding: 80px 0;
+}
+.contact-section .row00{
+  text-align: center;
+  margin-bottom: -15px;
+}
+.contact-section .row00 .contact-img{
+  margin-top: -188px;
+}
+.contact-section  .row01 .col-lg-3{
+  border-bottom: 1px solid #8e8e8e;
+  margin-top: -18px;
+}
+.contact-section  .row01 .col-lg-3:hover{
+  border-bottom: 1px solid #333;
+}
+.contact-section  .row01 .col-lg-3:hover p{
+ color:#333;
+} 
+.contact-section  .row02 .col-lg-8{
+  border-bottom:  1px solid #8e8e8e;
+}
+.contact-section  .row02 .col-lg-8:hover{
+  border-bottom:  1px solid #333;
+}
+.contact-section  .row02 .col-lg-8:hover p{
+ color:  #333;
+}
+.contact-section  .row02 .col801{
+  margin-top: 18px;
+}
+.contact-section  .row02 .col802{
+  margin-top: 35px;
+  margin-bottom: 25px;
+}
+.contact-section  .row02 .col802 p{
+ padding-bottom: 28px;
+}
+.contact-section a{
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid #333;
+  padding: 10px 0;
+  display: block;
+  margin-top: 22px;
+  margin-left: 382px;
+  margin-bottom: -35px;
+  width: 20%;
+  text-decoration: none;
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+  transition: all 0.3s ease-in-out;
+
+}
+.contact-section a::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #333;
+  top: -100%;
+  left: 0;
+  transition: all 0.3s ease-in-out;
+}
+.contact-section a:hover,
+.contact-section a:hover i{
+  color: #fff;
+  z-index: 1;
+}
+.contact-section a:hover::before{
+  top: 0;
+  z-index: -1;
+}
+.contact-section i{
+  color: #333; 
+}
+
+/*==========================
+   Footer Section CSS
+===========================*/
+.footer-section{
+  position: relative;
+  background: url(../image/Nipro23.png) no-repeat center top;
+  background-size: cover;
+  padding: 20px 0 30px;
+}
+.footer-section::before{
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 25px;
+  background: #333;
+  left: 50%;
+  top: 0px;
+}
+.footer-section .row02 .col12{
+  text-align: center;
+}
+.footer-section .row02{
+  padding: 20px 0 20px;
+  text-align: center;
+}
+.footer-section .row02 p{
+  color: #fff;
+  font-size: 13px;
+}
+.footer-section .row03 ul{
+  list-style: none;
+  padding-bottom: 35px;
+  margin-left: 7px;
+}
+.footer-section .row03 ul li{
+  display: inline;
+  padding: 0px 4px;
+}
+.footer-section .row03 ul li a{
+  background: transparent;
+  border: 1px solid #fff;
+  padding: 6px 9px ;
+  text-align: center;
+}
+.footer-section .row03 ul li a:hover{
+  background: #fff;
+}
+.footer-section .row03 ul li .fa-facebook{
+  padding: 6px 3px ;
+}
+.footer-section .row03 ul li .behance{
+  padding: 6px 8px ;
+}
+.footer-section .row03 ul li .linkedin{
+  padding: 6px 10px ;
+}
+.footer-section .row03 ul li .fa-google-plus-g{
+  padding: 6px 0px;
+}
+.footer-section .row03 ul li a i{
+  color: #fff;
+}
+.footer-section .row03 ul li a i:hover{
+  color: #333;
+}
+.footer-section .border{
+  border: 2px solid #8e8e8e;
+  margin: 20px -70px;
+}
+.footer-section .row04 .col-lg-4 p{
+  color: #fff;
+}
+.footer-section .row04 .col-lg-5 ul{
+  list-style: none;
+}
+.footer-section .row04 .col-lg-5 ul li{
+  display: inline;
+}
+.footer-section .row04 .col-lg-5 ul li a{
+  padding-right: 10px;
+  text-decoration: none;
+  color: #fff;
+}
+
+
